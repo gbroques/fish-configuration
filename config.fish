@@ -1,6 +1,7 @@
 
 # Abbreviations
 # -------------------------------------------------------------------
+# TODO: Consider installing https://github.com/Gazorby/fish-abbreviation-tips
 
 # Neovim
 abbr -a -- v nvim

@@ -3,5 +3,5 @@ function fish_prompt
     echo -n (prompt_pwd --full-length-dirs 3)
     set_color normal
     # nf-fa-chevron_right
-    echo -n '  '
+    printf '%s' (fish_git_prompt) '  '
 end

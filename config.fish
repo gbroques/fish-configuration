@@ -10,6 +10,7 @@ abbr -a -- vim nvim
 # Git
 abbr -a -- g git
 abbr -a -- ga 'git add'
+abbr -a -- gb 'git branch'
 abbr -a --set-cursor='%' -- gcm 'git commit -m "%"'
 abbr -a --set-cursor='%' -- gcma 'git commit -am "%"'
 abbr -a -- gco 'git checkout'

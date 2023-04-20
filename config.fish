@@ -20,3 +20,7 @@ abbr -a -- gps 'git push'
 abbr -a -- gpl 'git pull'
 
 # -------------------------------------------------------------------
+
+# Fisher
+set fisher_path $__fish_config_dir/fisher
+

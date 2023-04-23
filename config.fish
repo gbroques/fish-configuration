@@ -25,3 +25,11 @@ abbr -a -- gpl 'git pull'
 # Fisher
 set fisher_path $__fish_config_dir/fisher
 
+# Path
+fish_add_path ~/.local/share/nvim/language-servers/lua-language-server/bin
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+eval /home/g/miniconda3/bin/conda "shell.fish" "hook" $argv | source
+# <<< conda initialize <<<
+

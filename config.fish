@@ -21,7 +21,8 @@ abbr -a -- gps 'git push'
 abbr -a -- gpl 'git pull'
 
 # Miscellaneous
-abbr -a -- fcd 'cd (fd --type d | fzf)'
+abbr -a -- fcd 'cd (fd --type d | fzf)' # fuzzy cd
+abbr -a -- yp 'fd --type f | fzf | tr -d \'\n\' | xclip -selection clipboard' # yank path
 
 # -------------------------------------------------------------------
 

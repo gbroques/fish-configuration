@@ -20,6 +20,9 @@ abbr -a -- gd 'git diff'
 abbr -a -- gps 'git push'
 abbr -a -- gpl 'git pull'
 
+# Miscellaneous
+abbr -a -- fcd 'cd (fd --type d | fzf)'
+
 # -------------------------------------------------------------------
 
 # Fisher

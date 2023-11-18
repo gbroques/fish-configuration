@@ -36,8 +36,11 @@ set fisher_path $__fish_config_dir/fisher
 fish_add_path ~/.local/share/nvim/language-servers/lua-language-server/bin
 
 # Zoxide
-# https://github.com/ajeetdsouza/zoxide
-zoxide init fish | source
+if command --query zoxide
+  zoxide init fish | source
+else
+  echo "Install zoxide: https://github.com/ajeetdsouza/zoxide"
+end
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

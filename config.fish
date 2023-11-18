@@ -21,6 +21,7 @@ abbr -a -- gh 'git help'
 abbr -a -- gpl 'git pull'
 abbr -a -- gps 'git push'
 abbr -a -- gs 'git status'
+abbr -a -- gt 'git tag'
 
 # Miscellaneous
 abbr -a -- fcd 'cd (fd --type d | fzf)' # fuzzy cd

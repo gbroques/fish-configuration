@@ -23,6 +23,7 @@ abbr -a -- gs 'git status'
 
 # Miscellaneous
 abbr -a -- fcd 'cd (fd --type d | fzf)' # fuzzy cd
+abbr -a -- fcdh 'cd (fd --type d --hidden | fzf)' # fuzzy cd hidden
 
 # -------------------------------------------------------------------
 

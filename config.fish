@@ -20,7 +20,10 @@ abbr -a -- gf 'git fetch'
 abbr -a -- gh 'git help'
 abbr -a -- gpl 'git pull'
 abbr -a -- gps 'git push'
-abbr -a -- gs 'git status'
+abbr -a -- gre 'git reset'
+abbr -a -- grt 'git restore'
+abbr -a -- gst 'git status'
+abbr -a -- gsw 'git switch'
 abbr -a -- gt 'git tag'
 
 # Miscellaneous

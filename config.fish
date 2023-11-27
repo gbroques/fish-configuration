@@ -46,8 +46,10 @@ else
   echo "Install zoxide: https://github.com/ajeetdsouza/zoxide"
 end
 
+if test -x /home/g/miniconda3/bin/conda
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 eval /home/g/miniconda3/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
+end
 

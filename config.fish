@@ -52,10 +52,12 @@ else
   echo "Install zoxide: https://github.com/ajeetdsouza/zoxide"
 end
 
-if test -x /home/g/miniconda3/bin/conda
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-eval /home/g/miniconda3/bin/conda "shell.fish" "hook" $argv | source
-# <<< conda initialize <<<
+if test -x /home/g/.local/bin/micromamba
+# >>> mamba initialize >>>
+# !! Contents within this block are managed by 'mamba init' !!
+set -gx MAMBA_EXE "/home/g/.local/bin/micromamba"
+set -gx MAMBA_ROOT_PREFIX "/home/g/micromamba"
+$MAMBA_EXE shell hook --shell fish --root-prefix $MAMBA_ROOT_PREFIX | source
+# <<< mamba initialize <<<
 end
 

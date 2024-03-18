@@ -31,6 +31,8 @@ abbr -a -- gsw 'git switch'
 abbr -a -- gswc 'git switch --create'
 abbr -a -- gt 'git tag'
 
+abbr -a -- mm micromamba
+
 # Miscellaneous
 abbr -a -- fcd 'cd (fd --type d | fzf)' # fuzzy cd
 abbr -a -- fcdh 'cd (fd --type d --hidden | fzf)' # fuzzy cd hidden

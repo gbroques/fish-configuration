@@ -28,6 +28,7 @@ abbr -a -- gre 'git reset'
 abbr -a -- grt 'git restore'
 abbr -a -- gst 'git status'
 abbr -a -- gsw 'git switch'
+abbr -a -- gswc 'git switch --create'
 abbr -a -- gt 'git tag'
 
 # Miscellaneous

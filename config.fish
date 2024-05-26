@@ -12,6 +12,7 @@ abbr -a -- vim nvim
 abbr -a -- g git
 abbr -a -- ga 'git add'
 abbr -a -- gb 'git branch'
+abbr -a -- gbd 'git branch --delete'
 abbr -a -- gcl 'git clone'
 abbr -a --set-cursor='%' -- gcm 'git commit -m "%"'
 abbr -a --set-cursor='%' -- gcma 'git commit -am "%"'

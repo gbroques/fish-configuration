@@ -5,7 +5,7 @@ Configuration for Fish, the **f**riendly **i**nteractive **sh**ell.
 ## Setup
 
 ```
-git clone git@github.com:gbroques/fish-configuration.git ~/config/fish
+git clone git@github.com:gbroques/fish-configuration.git ~/.config/fish
 ``` 
 
 ## Plugin Manager

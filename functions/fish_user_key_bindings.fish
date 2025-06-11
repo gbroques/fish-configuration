@@ -1,7 +1,7 @@
 function fish_user_key_bindings
-  if functions --query fzf_key_bindings
-    fzf_key_bindings
+  if type --query fzf
+    fzf --fish | source
   else
-    echo 'Install fzf_key_bindings'
+    echo 'Install fzf'
   end
 end

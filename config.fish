@@ -65,3 +65,7 @@ $MAMBA_EXE shell hook --shell fish --root-prefix $MAMBA_ROOT_PREFIX | source
 # <<< mamba initialize <<<
 end
 
+if string match -q "*CYGWIN*" (uname -a)
+  cd (cygpath $USERPROFILE)/Projects
+end
+

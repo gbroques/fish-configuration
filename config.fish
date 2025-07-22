@@ -68,6 +68,7 @@ end
 set -l os (uname)
 if test "$os" = Darwin
   set -U fish_user_paths /opt/homebrew/bin $fish_user_paths
+  set -U fish_user_paths /usr/local/bin $fish_user_paths
 end
 
 if string match -q "*CYGWIN*" (uname -a)

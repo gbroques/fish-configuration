@@ -76,6 +76,6 @@ if string match -q "*CYGWIN*" (uname -a)
   cd (cygpath $USERPROFILE)/Projects
 end
 
-if test -e secrets.fish
-  source secrets.fish
+if test -e ~/.config/fish/secrets.fish
+  source ~/.config/fish/secrets.fish
 end

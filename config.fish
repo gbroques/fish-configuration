@@ -71,7 +71,6 @@ if test "$os" = Darwin
   set -U fish_user_paths /opt/homebrew/bin $fish_user_paths
   set -U fish_user_paths /usr/local/bin $fish_user_paths
   set -Ux JAVA_HOME /Library/Java/JavaVirtualMachines/zulu-21.jdk/Contents/Home
-  cd ~/Projects
 end
 
 if string match -q "*CYGWIN*" (uname -a)

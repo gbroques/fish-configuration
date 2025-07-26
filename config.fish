@@ -11,6 +11,7 @@ abbr -a -- vim nvim
 # Git
 abbr -a -- g git
 abbr -a -- ga 'git add'
+abbr -a -- gap 'git add --patch'
 abbr -a -- gb 'git branch'
 abbr -a -- gbd 'git branch --delete'
 abbr -a -- gcl 'git clone'
